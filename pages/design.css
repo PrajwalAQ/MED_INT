@@ -1,0 +1,233 @@
+.title{
+  position: relative;
+  right: 300px;
+  padding-top: 5px;
+  margin-left:40%;
+}
+.links{
+  display:flex;
+  flex-direction:row;
+  position: relative;
+  right: 400px;
+  margin-left:25%;
+  width:50%
+}
+.navbutton{
+  width: 90px;
+  height: 50px;
+  font-weight: 600;
+  background-color: transparent;
+  padding-top: 3px;
+  border: none;
+}
+.navbutton>a{
+  text-decoration: none;
+}
+.navbutton:hover{
+  background-color:rgb(0, 229, 255);
+}
+.NavBar{
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  position: relative;
+  background-color: rgb(72, 147, 217);
+}
+.nav-links li {
+  display: inline;
+  margin-right: 50px;
+  font-weight: 600;
+}
+.nav-links {
+  color: #b44242;
+  text-decoration: none;
+  padding-right: 20px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.nav-input {
+  height: 30px;
+  width: 200px;
+  font-size: large;
+  font-weight: 500;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+} 
+.nav-links a {
+  text-decoration: none;
+  color:white;
+}
+
+
+
+
+.F{
+    font-weight: 700;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.buttondiv{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: larger;
+    margin-block: 5px;
+    width: 100px;
+}
+.SubmitButton{
+    width: 100px;
+    height: 30px;
+    border-radius: 5%;
+    margin-inline-start: 200px;  
+}
+
+button:hover {
+    background: #363836;
+    font-weight: 700;
+    color:aliceblue;
+}
+
+
+.MainCustomer{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #d2c9c9;
+    border-radius: 15px;
+    font-size: larger;
+}
+
+.MainHeading{
+    font-size: large;
+    padding-left: 120px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  background: transparent;
+  padding: 7.5%;
+  margin:1% 10%;
+  color: white;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background: #716b6b;
+    color: #fff;
+    padding: 15px 0;
+  }
+
+  .section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .backgroundImg{
+    position: absolute;
+    width: 99vw;
+    height: 100vh;
+    z-index: -99;
+    opacity: .8;
+  }
+
+  .About{
+    width: 200px;
+    height: 450px;
+    color: #333;
+    margin-right: 50px;
+    background-color: rgb(209, 67, 93)  ;
+    opacity: 0.95;
+    font-style: italic;
+    font-size: 40px;
+  }
+  .para{
+    padding-top: 30px;
+    font-size: 20px;
+  }
+  .customerImg{
+    position: absolute;
+    width: 95vw;
+    height: 88vh;
+    z-index: -95;
+    opacity: .7;
+    margin-left: -500px;
+  }
+  .BillingImg{
+    position: absolute;
+    width: 95vw;
+    height: 88vh;
+    z-index: -95;
+    opacity: .5;
+    margin-left: -500px;
+  }
+  .SupplierImg{
+    position: absolute;
+    width: 95vw;
+    height: 88vh;
+    z-index: -95;
+    opacity: .7;
+    margin-left: -750px;
+  }
+  .InvImg{
+    position: absolute;
+    width: 95vw;
+    height: 88vh;
+    z-index: -95;
+    opacity: .7;
+    margin-left: -330px;
+  }
+  .invtable{
+    border: 2px;
+    margin: 5px;
+  }
+  table, th, td {
+    border: 1px solid #000; /* 1px solid border with black color */
+    padding: 8px; /* Add padding for better spacing */
+  }

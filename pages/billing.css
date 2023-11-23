@@ -1,0 +1,28 @@
+.billing-container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #d2c9c9;
+    border-radius: 15px;
+    font-size: larger;
+    box-shadow: 10px;
+
+}
+.billbutton{
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5%;
+    margin-inline-start: 150px; 
+
+}
+.FinalBill{
+    display:flex;
+    flex-direction: row;
+}
+.FBI{
+    padding-right: 60px;
+}
+.FBI1{
+    padding-right: 30px;
+}
